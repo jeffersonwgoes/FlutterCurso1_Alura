@@ -22,8 +22,7 @@ class Dashboard extends StatelessWidget {
               padding: EdgeInsets.all(8),
               child: Material(
                 color: Theme.of(context).primaryColor,
-                              child: InkWell(
-                                
+                child: InkWell(
                   onTap: () {
                     Navigator.of(context).push(
                         MaterialPageRoute(builder: (context) => ContactList()));
@@ -31,7 +30,7 @@ class Dashboard extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.all(8),
                     height: 100,
-                    width: 150,
+                    width: 150,  
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.start,
